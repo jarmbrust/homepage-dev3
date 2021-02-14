@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import Homepage from './Pagefiles/Homepage/';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      James Armbrust dot com coming soon
-    </div>
+    <>
+      <div className="App">
+        <div>James Armbrust dot dev coming soon</div>
+        {/* <Homepage /> */}
+      </div>
+      
+    </>
   );
 }
 

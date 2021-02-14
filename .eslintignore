@@ -1,0 +1,4 @@
+#ignore all js files for now, just line the jsx
+**/*.js
+node_modules
+public
